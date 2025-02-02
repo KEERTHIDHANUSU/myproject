@@ -1,0 +1,145 @@
+    body {
+    margin: 0;
+    background: rgb(131, 131, 134);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,30,85,1) 38%, rgba(9,102,121,1) 100%);
+    color:rgb(21, 245, 186);
+    font-family: poppins;
+    font-size: 18px;
+    padding-bottom: 3000px;
+    }
+    .main{
+        position: absolute;
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 220px;
+        margin-left: 570px;
+    }
+    .wel{
+        font-size: 49px;
+    }
+
+    .image {
+    width: 100%;
+    height: 790px;
+    position: fixed;
+    }
+
+    .logo {
+    width: 50px;
+    height: 48px;
+    margin-top: 5px;
+    }
+
+    .header {
+    margin: 15px 0px 0px 3px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .first {
+    height: 60px;
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    font-weight: bold;
+    }
+
+    .second {
+    font-weight: bold;
+    padding-bottom: 5px;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    margin-left: 700px;
+    .menu_bt {
+        background-color: transparent;
+        border: none;
+    }
+    .symbol {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .log {
+        font-weight: bold;
+    }
+    .a-log,
+    .a-sign {
+        color: white;
+        text-decoration: none;
+    }
+    .a-log:hover,
+    .a-sign:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: rgb(255, 183, 0);
+
+    }
+    .sign {
+        margin-right: 40px;
+        font-weight: bold;
+    }
+    .home-bt:hover,
+    .about-bt:hover,
+    .contact:hover {
+        cursor: pointer;
+        color: white;
+        text-decoration: underline;
+    }
+    .menu {
+        margin-top: 15px;
+        margin-left: 12px;
+        width: 38px;
+        height: 30px;
+        cursor: pointer;
+    }
+    a {
+        color: rgb(55, 0, 255);
+    }
+    .menu:hover {
+        box-shadow: 0px 5px 5px white;
+    }
+    .button {
+        margin-top: 10px;
+        cursor: pointer;
+        position: relative;
+        width: 4em;
+        height: 3em;
+        border: none;
+        background: rgb(113, 5, 137);
+        padding: 0.5em;
+        display: flex;
+        justify-content: center;
+        gap: 0.7em;
+        flex-direction: column;
+        transition-duration: 0.5s;
+    }
+    .button:hover {
+        background: rgba(0, 217, 255, 0.785);
+    }
+    .similar-line {
+        height: 0.2em;
+        background: #fff;
+        border-radius: 1em;
+        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .line-1 {
+        width: 40%;
+    }
+    .line-2 {
+        width: 70%;
+    }
+    .line-3 {
+        width: 90%;
+    }
+    .button:hover .line-1 {
+        width: 90%;
+    }
+    .button:hover .line-2 {
+        width: 70%;
+    }
+    .button:hover .line-3 {
+        width: 40%;
+    }
